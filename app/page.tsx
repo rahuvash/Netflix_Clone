@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import React from 'react';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
-    <h1>Netflix</h1>
+      <h1 className="text-4xl m-4 tracking-wide">NETFLIX</h1>
+      
     </>
-  )
+  );
 }
